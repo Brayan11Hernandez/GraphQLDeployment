@@ -1,0 +1,24 @@
+{
+  "name": "graphqldeployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "node src/index.js",
+  "start": "node src/index.js",
+  "seed": "node prisma/seed.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@apollo/server": "^5.5.0",
+    "@as-integrations/express5": "^1.1.2",
+    "@prisma/client": "^6.19.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "graphql": "^16.13.2",
+    "prisma": "^6.19.3"
+  }
+}
